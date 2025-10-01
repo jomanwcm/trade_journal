@@ -1,0 +1,64 @@
+# Trade Journal Program
+
+This is a **Python-based trade journal application** built with Tkinter and `tksheet`.  
+It is designed to help traders quickly record price action arguments (bull, bear, trading range, bias) for each bar in a trading session.
+
+---
+
+## Features
+
+- **Interactive Button Panel**
+  - Buttons are grouped into categories:
+    - 牛方論點 (Bull arguments)
+    - 熊方論點 (Bear arguments)
+    - TR論點 (Trading Range arguments)
+    - BIAS (Bias arguments)
+  - When a user selects a cell in the journal table and presses a button, the button text is inserted into the selected cell.
+
+- **Journal Table (tksheet)**
+  - Displays rows of bars for the session.
+  - Each row has columns for bull, bear, trading range, and bias notes.
+  - Supports editing, resizing, and selection.
+  - Content can be autosaved and reloaded.
+
+- **Autosave**
+  - Changes made in the sheet are automatically saved and reloaded when the app is restarted.
+
+- **Tooltips**
+  - Hover over buttons to see their full description.
+
+---
+
+## File Overview
+
+- `main.py`  
+  Entry point. Launches the trade journal application.
+
+- `journal_app.py`  
+  Main GUI class (`JournalApp`). Handles the application window, the tksheet grid, and integration with buttons.
+
+- `scrollable_buttons.py`  
+  Implements scrollable frames of buttons for 牛方論點, 熊方論點, TR論點, and BIAS.  
+  Connects button clicks to updates in the journal table.
+
+- `constants.py`  
+  Stores button label definitions, column headers, and bar order settings.
+
+- `autosave.py`  
+  Provides automatic save/load functionality for journal content.
+
+- `tooltip.py`  
+  Tooltip helper class for showing text when hovering over buttons.
+
+- `program logic` (file)  
+  A high-level workflow document that explains how the program works (startup flow, initialization, UI building, autosave, etc.).  
+  It is not Python code, but rather explanatory notes. The same content is also included in the appendix below.
+
+---
+
+## Requirements
+
+- Python 3.10+ recommended
+- Install dependencies:
+  ```bash
+  pip install tksheet
