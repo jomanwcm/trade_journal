@@ -1,0 +1,52 @@
+{
+  "bull_points": [
+    "gap up",
+    "above EMA",
+    "大bull bar ()",
+    "DB()",
+    "升穿 50% PB",
+    "連續bull bar()",
+    "H1 ()",
+    "Decent bull leg()",
+    "未穿 50% PB",
+    "1st bull leg ()",
+    "2nd bull leg ()",
+    "3rd bull leg ()",
+    "Tight Bull Ch. ()",
+    "Bull PB ()",
+    "Bad follow after bear bar",
+    "靚牛signal bar ()"
+  ],
+  "bear_points": [
+    "gap down",
+    "below EMA",
+    "大bear bar ()",
+    "中bear bar ()",
+    "連續bear bar()",
+    "Tight Bear Ch.()",
+    "Bear PB ()",
+    "未升穿 50% PB",
+    "DT()",
+    "Decent bear leg()",
+    "Bad follow after bull",
+    "跌穿 50% PB"
+  ],
+  "tr_points": [
+    "開巿=前收巿",
+    "大重叠 ()",
+    "小重叠 ()",
+    "inside ()",
+    "ii()",
+    "ioi()",
+    "ioii()",
+    "iii()",
+    "Doji bar ()"
+  ],
+  "bias_points": [
+    "Bullish",
+    "Bullish/TR",
+    "TR",
+    "Bearish/TR",
+    "Bearish"
+  ]
+}
