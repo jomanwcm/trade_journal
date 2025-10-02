@@ -1,9 +1,13 @@
 # autosave.py — line-by-line annotated walkthrough
-# (Mixin that adds autosave/restore of session data to a JSON file in temp folder)
+# (Mixin that adds autosave/restore of session data to a JSON file.)
+# Now portable: saves to ./sessions/session.json (project-relative) by default,
+# with an environment-variable override and a safe fallback to the OS temp folder.
 
 import os
 import json
 import tempfile
+from pathlib import Path
+
 
 class AutosaveMixin:
     """Provides session autosave/restore for JournalApp.
@@ -14,7 +18,36 @@ class AutosaveMixin:
     """
 
     def _autosave_path(self) -> str:
-        # Use the OS temp directory to hold an autosave JSON file.
+        """
+        Resolve the autosave JSON path.
+
+        Priority:
+          1) TRADE_JOURNAL_SESSION_PATH (env var) — absolute or relative; dirs auto-created
+          2) ./sessions/session.json — project-relative (next to this file)
+          3) OS temp dir — fallback, same as the original behavior
+        """
+        # 1) Explicit override via environment variable
+        env = os.getenv("TRADE_JOURNAL_SESSION_PATH")
+        if env:
+            p = Path(env).expanduser().resolve()
+            try:
+                p.parent.mkdir(parents=True, exist_ok=True)
+                return str(p)
+            except Exception:
+                # if parent can't be created, fall through to next options
+                pass
+
+        # 2) Project-relative default: ./sessions/session.json (portable with git)
+        try:
+            base_dir = Path(__file__).resolve().parent
+            sess_dir = base_dir / "sessions"
+            sess_dir.mkdir(parents=True, exist_ok=True)
+            return str(sess_dir / "session.json")
+        except Exception:
+            # if project path isn't writable (e.g., read-only media), fall back
+            pass
+
+        # 3) Fallback: OS temp directory (original behavior)
         return os.path.join(tempfile.gettempdir(), "pa_click_journal_autosave.json")
 
     def _schedule_autosave(self, delay_ms: int = 500):
