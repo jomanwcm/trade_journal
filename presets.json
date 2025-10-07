@@ -15,7 +15,10 @@
     "Tight Bull Ch. ()",
     "Bull PB ()",
     "Bad follow after bear bar",
-    "靚牛signal bar ()"
+    "靚牛signal bar ()",
+    "跌近阻力位 ()",
+    "熊bar後 bad fol-thru",
+    "上影線穿EMA"
   ],
   "bear_points": [
     "gap down",
@@ -28,8 +31,16 @@
     "未升穿 50% PB",
     "DT()",
     "Decent bear leg()",
-    "Bad follow after bull",
-    "跌穿 50% PB"
+    "牛bar後 bad fol-thru ",
+    "跌穿 50% PB",
+    "升近阻力位 ()",
+    "下影線穿EMA",
+    "靚熊signal bar ()",
+    "Trigger L1 ()",
+    "Trigger L2 ()",
+    "1st bear leg ()",
+    "2nd bear leg ()",
+    "3nd bear leg ()"
   ],
   "tr_points": [
     "開巿=前收巿",

@@ -1,294 +1,243 @@
 {
   "RTH": {
-    "ts": "2025-10-02 23:57:19",
+    "ts": "2025-10-07 23:30:35",
     "bull": [],
     "bear": [],
     "tr": [],
     "bias": [
-      "bear trend, wedge bottom, then trading range"
+      "small bull trend"
     ]
   },
   "ETH": {
-    "ts": "2025-10-02 23:57:19",
+    "ts": "2025-10-07 23:30:37",
     "bull": [],
     "bear": [],
     "tr": [],
     "bias": [
-      "small trading range, then bear trend"
+      "trading range, then bull leg"
     ]
   },
   "1": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [],
-    "bear": [
-      "gap down",
-      "below EMA",
-      "大bear bar (8)",
-      "穿ETH Low"
+    "ts": "2025-10-07 23:30:37",
+    "bull": [
+      "gap up",
+      "大bull bar (4)",
+      "above EMA"
     ],
-    "tr": [
-      "掂ETH Low可能有支持"
-    ],
-    "bias": [
-      "Bearish/TR"
-    ]
-  },
-  "2": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [],
     "bear": [
-      "below EMA",
-      "連續bear bar(1,2)",
-      "大bear bar (1,2)"
+      "升近ETH H (阻力)"
     ],
     "tr": [],
+    "bias": []
+  },
+  "2": {
+    "ts": "2025-10-07 23:30:37",
+    "bull": [
+      "above EMA"
+    ],
+    "bear": [
+      "牛bar後 bad fol-thru ",
+      "升近ETH H (阻力)",
+      "1st bear leg (2-4)"
+    ],
+    "tr": [
+      "inside (2)"
+    ],
     "bias": [
-      "Bearish"
+      "Bullish/TR"
     ]
   },
   "3": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [],
+    "ts": "2025-10-07 23:30:38",
+    "bull": [
+      "above EMA"
+    ],
     "bear": [
-      "below EMA",
-      "大bear bar (1-3)",
-      "連續bear bar(1-3)",
-      "Tight Bear Ch.(1-3)"
+      "連續bear bar(2,3)"
     ],
     "tr": [],
     "bias": [
-      "Bearish"
+      "Bullish/TR"
     ]
   },
   "4": {
-    "ts": "2025-10-02 23:57:19",
+    "ts": "2025-10-07 23:30:38",
     "bull": [
-      "大bull bar (9.25)",
-      "1st bull leg (4)"
+      "above EMA"
     ],
     "bear": [
-      "below EMA",
-      "Bear PB (4)",
-      "未升穿 50% PB"
-    ],
-    "tr": [
-      "大重叠 (3,4)"
-    ],
-    "bias": [
-      "Bearish"
-    ]
-  },
-  "5": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "影線曾升穿50%PB"
-    ],
-    "bear": [
-      "below EMA",
-      "中bear bar (5.25)",
-      "未升穿 50% PB"
-    ],
-    "tr": [
-      "大重叠 (3,4,5)"
-    ],
-    "bias": [
-      "Bearish/TR"
-    ]
-  },
-  "6": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "DB(3,4,6)",
-      "H1 (6)"
-    ],
-    "bear": [
-      "below EMA"
-    ],
-    "tr": [
-      "Doji bar (bar 6)",
-      "大重叠 (3-6)"
-    ],
-    "bias": [
-      "Bearish/TR"
-    ]
-  },
-  "7": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "大bull bar (13.75)",
-      "升穿 50% PB"
-    ],
-    "bear": [
-      "below EMA"
-    ],
-    "tr": [
-      "大重叠 (5,7)"
-    ],
-    "bias": [
-      "Bearish/TR"
-    ]
-  },
-  "8": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "大bull bar (9.25)",
-      "連續bull bar(7,8)",
-      "升穿 50% PB",
-      "2nd bull leg (7,8)"
-    ],
-    "bear": [
-      "below EMA"
+      "連續bear bar(2,3,4)"
     ],
     "tr": [],
     "bias": [
       "Bullish/TR"
     ]
   },
-  "9": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "連續bull bar(7-9)"
-    ],
-    "bear": [
-      "below EMA"
-    ],
-    "tr": [
-      "Doji bar (1.25)"
-    ],
-    "bias": [
-      "Bullish/TR"
-    ]
-  },
-  "10": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "連續bull bar(7-10)",
-      "above EMA",
-      "Tight Bull Ch. (7-10)"
-    ],
-    "bear": [
-      "收在EMA下"
-    ],
-    "tr": [
-      "小重叠 (8-10)"
-    ],
-    "bias": [
-      "Bullish"
-    ]
-  },
-  "11": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "above EMA",
-      "大bull bar (5.75)",
-      "Tight Bull Ch. (7-11)"
-    ],
-    "bear": [],
-    "tr": [
-      "小重叠 (8-11)"
-    ],
-    "bias": [
-      "Bullish"
-    ]
-  },
-  "12": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "above EMA",
-      "Bull PB (12)"
-    ],
-    "bear": [
-      "DT(11-12)"
-    ],
-    "tr": [
-      "大重叠 (11-12)"
-    ],
-    "bias": [
-      "Bullish"
-    ]
-  },
-  "13": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "DB(11-13)"
-    ],
-    "bear": [],
-    "tr": [
-      "大重叠 (11-13)",
-      "inside (13)"
-    ],
-    "bias": [
-      "Bullish/TR"
-    ]
-  },
-  "14": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "above EMA"
-    ],
-    "bear": [],
-    "tr": [
-      "大重叠 (11-14)"
-    ],
-    "bias": [
-      "Bullish/TR"
-    ]
-  },
-  "15": {
-    "ts": "2025-10-02 23:57:19",
+  "5": {
+    "ts": "2025-10-07 23:30:45",
     "bull": [
       "above EMA"
     ],
     "bear": [
-      "DT(14-15)",
-      "影線穿EMA"
+      "下影線穿EMA"
     ],
-    "tr": [
-      "inside (15)"
-    ],
+    "tr": [],
     "bias": [
-      "Bullish/TR"
+      "TR"
     ]
   },
-  "16": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [
-      "靚牛signal bar (16)",
-      "above EMA"
-    ],
-    "bear": [
-      "DT(11,12,16)"
-    ],
-    "tr": [
-      "大重叠 (11-16)"
-    ],
-    "bias": [
-      "Bullish/TR"
-    ]
-  },
-  "17": {
-    "ts": "2025-10-02 23:57:19",
-    "bull": [],
-    "bear": [
-      "below EMA"
-    ],
-    "tr": [
-      "大重叠 (11-17)"
-    ],
-    "bias": []
-  },
-  "18": {
-    "ts": "2025-10-02 23:57:19",
+  "6": {
+    "ts": "2025-10-07 23:30:38",
     "bull": [
       "above EMA"
     ],
-    "bear": [],
+    "bear": [
+      "下影線穿EMA",
+      "靚熊signal bar (6)",
+      "升近ETH H (阻力)"
+    ],
     "tr": [
-      "inside (18)"
+      "小重叠 (1-6)"
     ],
     "bias": [
       "TR"
     ]
+  },
+  "7": {
+    "ts": "2025-10-07 23:30:44",
+    "bull": [
+      "跌近RTH C (阻力)"
+    ],
+    "bear": [
+      "below EMA",
+      "大bear bar (4.25)",
+      "連續bear bar(6,7)",
+      "Trigger L1 (6)",
+      "2nd bear leg (6-7)"
+    ],
+    "tr": [],
+    "bias": [
+      "Bearish"
+    ]
+  },
+  "8": {
+    "ts": "2025-10-07 23:30:44",
+    "bull": [
+      "跌近RTH C (阻力)",
+      "熊bar後 bad fol-thru"
+    ],
+    "bear": [
+      "below EMA"
+    ],
+    "tr": [],
+    "bias": [
+      "Bearish/TR"
+    ]
+  },
+  "9": {
+    "ts": "2025-10-07 23:30:39",
+    "bull": [
+      "上影線穿EMA"
+    ],
+    "bear": [
+      "below EMA",
+      "靚熊signal bar (9)"
+    ],
+    "tr": [
+      "大重叠 (1-9)"
+    ],
+    "bias": [
+      "Bearish/TR"
+    ]
+  },
+  "10": {
+    "ts": "2025-10-07 23:30:39",
+    "bull": [
+      "上影線穿EMA",
+      "跌近阻力位 (RTH C)"
+    ],
+    "bear": [
+      "below EMA"
+    ],
+    "tr": [
+      "Doji bar (10)"
+    ],
+    "bias": [
+      "Bearish/TR"
+    ]
+  },
+  "11": {
+    "ts": "2025-10-07 23:30:40",
+    "bull": [
+      "DB(7,8,11)"
+    ],
+    "bear": [
+      "below EMA",
+      "大bear bar (3)",
+      "Trigger L2 (10)"
+    ],
+    "tr": [
+      "大重叠 (1-11)"
+    ],
+    "bias": [
+      "Bearish/TR"
+    ]
+  },
+  "12": {
+    "ts": "2025-10-07 23:30:40",
+    "bull": [],
+    "bear": [
+      "below EMA",
+      "大bear bar (5)",
+      "連續bear bar(11,12)",
+      "3nd bear leg (11-12)"
+    ],
+    "tr": [],
+    "bias": [
+      "Bearish"
+    ]
+  },
+  "13": {
+    "ts": "2025-10-07 23:30:40",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
+  },
+  "14": {
+    "ts": "2025-10-07 23:30:41",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
+  },
+  "15": {
+    "ts": "2025-10-07 23:30:41",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
+  },
+  "16": {
+    "ts": "2025-10-07 23:30:41",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
+  },
+  "17": {
+    "ts": "2025-10-07 23:30:42",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
+  },
+  "18": {
+    "ts": "2025-10-07 23:30:42",
+    "bull": [],
+    "bear": [],
+    "tr": [],
+    "bias": []
   },
   "19": {
     "ts": "2025-10-02 23:57:19",
