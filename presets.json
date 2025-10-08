@@ -8,7 +8,7 @@
     "連續bull bar()",
     "H1 ()",
     "Decent bull leg()",
-    "未穿 50% PB",
+    "未穿 50% PB ()",
     "1st bull leg ()",
     "2nd bull leg ()",
     "3rd bull leg ()",
@@ -17,6 +17,7 @@
     "Bad follow after bear bar",
     "靚牛signal bar ()",
     "跌近阻力位 ()",
+    "升穿阻力位 ()",
     "熊bar後 bad fol-thru",
     "上影線穿EMA"
   ],
@@ -40,7 +41,10 @@
     "Trigger L2 ()",
     "1st bear leg ()",
     "2nd bear leg ()",
-    "3nd bear leg ()"
+    "3nd bear leg ()",
+    "牛通道頂 ()",
+    "Parabolic Wedge ()",
+    "Wedge ()"
   ],
   "tr_points": [
     "開巿=前收巿",
